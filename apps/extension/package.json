@@ -1,0 +1,12 @@
+{
+  "name": "extension",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "echo 'Extension uses static files'",
+    "test": "echo 'No tests yet'"
+  },
+  "devDependencies": {
+    "esbuild": "^0.27.4"
+  }
+}

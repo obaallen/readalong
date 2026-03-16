@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "ReadAlong",
+  "version": "0.1.0",
+  "description": "Read this page with text-to-speech. Overlay reader with click-to-seek.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "ReadAlong"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  }
+}
